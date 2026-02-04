@@ -6,6 +6,7 @@
 #include "SplineCurve.h"
 #include "AlignmentShapes.h"
 #include "Sky.h"
+#include "Cocoon.h"
 
 class ofApp : public ofBaseApp{
 

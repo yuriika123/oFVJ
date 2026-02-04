@@ -21,6 +21,7 @@ void ofApp::setup(){
 	
 	showScenesTwo = false;
 	scenesTwo.push_back(make_shared<Sky>());
+	scenesTwo.push_back(make_shared<Cocoon>());
 	currentSceneTwoIndex = 0;
 	for (auto& scene : scenesTwo) {
 		scene->setup();
